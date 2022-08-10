@@ -1,0 +1,378 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/wall\ 6.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.header{
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.logo{
+    color: white;
+    margin-left: 20px;
+}
+.headermenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+.headermenu a{
+    text-decoration: none;
+    color: white;
+}
+.headermenu:hover{
+    background: black;
+}
+.sub{
+    display: none;
+    margin-top: 160px;
+    position: absolute;
+    background: rgb(41, 40, 40);
+    width: 100px;
+}
+.headermenu:hover .sub{
+    display: block;
+}
+.subheader{
+    color: white;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.item1{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.motivatetext{
+    color: white;
+    font-size: 100px;
+    padding: 10px;
+    text-align: center;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 700px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.images img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.imagetext{
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 5px 10px rgba(255, 3, 3, 0.5), 0px 5px 10px rgba(255, 3, 3, 0.10);
+    color: black;
+    width: 96%;
+    font-weight: bolder;
+    background: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.itemprice{
+    color: white;
+    border: 5px solid white;
+    box-shadow: 3px 5px 10px rgba(255, 3, 3, 0.5), 0px 5px 10px rgba(255, 3, 3, 0.10);
+    width: 96%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 1s;
+}
+.itemprice:hover{
+    background-color:white;
+    border: 5px solid rgb(226, 56, 84);
+    color: black;
+}
+.itembutton{
+    padding: 10px;
+    color: white;
+    box-shadow: 3px 5px 10px rgba(255, 3, 3, 0.5), 0px 5px 10px rgba(255, 3, 3, 0.10);
+    background: burlywood;
+    width: 85px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.25s;
+    margin-top: 30px;
+}
+.itembutton a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    text-align: center
+
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    width: 50px;
+    border-radius: 8px;
+    margin-left: 55%;
+    margin-bottom: 30px;
+    border: 2px solid white;
+}
+.sign a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.sign:hover{
+    background-color:transparent;
+    border: 2px solid rgb(250, 4, 4);
+}
+.sign:hover a{
+    color: aquamarine;
+}
+.sign input{
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 50px;
+}
+.footer{
+    height: 30px;
+}
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(177, 155, 155, 0.822);
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links ul{
+    display: flex;
+}
+
+.social-items{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-links a:hover{
+    border-radius: 5px;
+    color: aquamarine;
+}
+
+.social-items a{
+    padding:  30px;
+    font-size: 30px;
+    color: rgb(59, 202, 154);
+
+}
+
+.quick-links{
+    display: flex;
+
+}
+
+.quick-links ul{
+    display: flex;
+}
+
+.quick-links a:hover{
+    color: aquamarine;
+}
+
+.quick-items {
+    list-style: none;
+    
+}
+.quick-items h1{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.quick-items a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(46, 32, 32, 0.699);
+}
+
+.quick{
+    display: flex;
+    margin-top: 30px;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    margin-left: 50px;
+}
+.first ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.first h1{
+    color: wheat;
+}
+.line{
+    border-bottom: 3px solid yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.second{
+    margin-left: 300px;
+}
+.second ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.second h1{
+    color: wheat;
+}
+.line2{
+    border-bottom: 3px solid red;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.third{
+    margin-left: 300px;
+}
+.third ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.third h1{
+    color: wheat;
+}
+.line3{
+    border-bottom: 3px solid green;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main h1{
+    text-align: center;
+    color: white;
+}
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(78, 68, 68);
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 9px rgba(0,0,0,0.30);
+}
+.inputc{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.inputc>i{
+    background-color: lightgray;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+    border: none;
+}
+.inputc i{
+    text-align: center;
+}
+.inputc:hover i{
+    color: white;
+    background: rgb(17, 7, 7);
+}
+.inputc:first-child{
+    margin-top: 20px;
+}
+.inputc input:focus{
+    color: wheat;
+    background: blue;
+}
+.inputc textarea:focus{
+    color: white;
+    background: blue;
+}
+
+.inputc > input[type="text"]{
+    outline: none;
+    border: none;
+    padding: 7px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+}
+
+.inputc > input[type="email"]{
+    outline: none;
+    border: none;
+    padding: 7px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+}
+.inputc > input[type="submit"], .inputc >textarea{
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
